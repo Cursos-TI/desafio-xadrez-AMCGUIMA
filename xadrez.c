@@ -28,6 +28,40 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
-    //INICIANDO JOGO
+//DECLARAÇÃO DAS VARIAVES RESPONSAVEIS POR ARMAZENAR A QUANTIDADE DE MOVIMENTO DAS PEÇAS DO XADREX
+int torre = 5;
+int bispo = 5;
+int rainha = 8;
+
+int aux = 1; // VARIAVEL AUXILIAR PARA TRATAR OS LOOP WHILE E DO WHILE.
+
+//TRECHO RESPONSAVEL PELO MOVIMENTO DA TORRE.
+printf("\n\nTORRE:\n");
+for (int i = 1; i <= torre; i++) // TRECHO DO CODIGO RESPONSAVEL POR INCREMENTAR O MOVIMENTO DA TORRE USANDO O LOOP for.
+{
+    printf("Direita\n");// SAIDA DE DADOS, RESULTADO DO INCREMENTO EXECUTADO DENTRO DO LAÇO for.
+}
+
+//TRECHO RESPONSAVEL PELO MOVIMENTO DA BISPO.
+printf("\n\nBISPO:\n");
+while(aux <= bispo) // TRECHO DO CODIGO RESPONSAVEL POR INCREMENTAR O MOVIMENTO DA TORRE USANDO O LOOP while.
+{
+    printf("Cima, Direita\n");// SAIDA DE DADOS, RESULTADO DO INCREMENTO EXECUTADO DENTRO DO LAÇO while.
+    aux++; // variavel auxiliar criada para guardar o incremento para ser usado na condição while
+
+}
+
+//TRECHO RESPONSAVEL PELO MOVIMENTO DA RAINHA.
+aux = 1;
+printf("\n\nRAINHA:\n");
+do  // TRECHO DO CODIGO RESPONSAVEL POR INCREMENTAR O MOVIMENTO DA TORRE USANDO O LOOP do while.
+{
+    printf("Esquerda\n"); // SAIDA DE DADOS, RESULTADO DO INCREMENTO EXECUTADO DENTRO DO LAÇO do while.
+    aux++; // variavel auxiliar criada para guardar o incremento para ser usado na condição do while
+
+} while (aux <= rainha);//codição do While para executar o codigo.
+
+
+
     return 0;
 }
