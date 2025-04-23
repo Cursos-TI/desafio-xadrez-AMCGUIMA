@@ -61,7 +61,22 @@ do  // TRECHO DO CODIGO RESPONSAVEL POR INCREMENTAR O MOVIMENTO DA TORRE USANDO 
 
 } while (aux <= rainha);//codição do While para executar o codigo.
 
+//MOVIMENTO DO CAVALO -- NIVEL AVENTUREIRO
+aux = 0; //VARIAVEL AUXILIAR PARA TRATAR A CONDIÇAO DO LOOP WHILE
+printf("\n"); //IMPRIMI UMA LINHA EM BRANCO PARA SEPARAR OS MOVIMENTOS DO CAVALO DAS OUTRAS PEÇAS
+printf("\nCAVALO: \n");
 
+while (aux < 1)
+{
+    for (int i = 1; i <= 2; i++)
+    {
+        printf("Baixo, ");// SAIDA DE DADOS, RESULTADO DO INCREMENTO EXECUTADO DENTRO DO LAÇO FOR. IMPRIMI NO CONSOLE "Baixo, " duas vezes
+    }
+
+    printf("Esquerda");// ASSIM QUE TERMINA O LOOP FOR IMPRIMI NA SEQUENCIA PARA "ESQUERDA"
+    aux++; //INCRIMENTA +1 NA VARIAVEL AUXILIAR PARA FINALIZAR A CONDICÇÃO DO WHILE
+    
+}
 
     return 0;
 }
